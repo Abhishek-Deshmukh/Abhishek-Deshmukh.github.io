@@ -150,6 +150,24 @@ a:hover, a:active, a:focus {
   background: none repeat scroll 0 0 #ffffff;
 }
 
+#lodingLogo {
+    
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -ms-flex-align: center;
+     align-items: center;
+    position: relative;
+    text-align: center;
+}
+
 .sk-spinner-wordpress.sk-spinner {
   background-color: #bfba55;
   width: 40px;

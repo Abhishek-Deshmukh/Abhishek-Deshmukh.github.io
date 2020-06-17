@@ -1,0 +1,1243 @@
+[
+  {
+    "tests": ["p-7trt_1/0con_1"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_2", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": ["ENSMUSG00000000194", "ENSMUSG00000000305", "ENSMUSG00000000409"]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000359",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_3", "p-7trt_2/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_2", "p-7trt_2/0con_3"],
+    "genes": [
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_2", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000159",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2", "p-7trt_2/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000266",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000538",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000028",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_1/0con_2", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000056",
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000216",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000296",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000093",
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000197",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000538"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000399",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_2/0con_3"],
+    "genes": [
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_1/0con_3"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000560",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_2/0con_2"],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_2/0con_2",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000127",
+      "ENSMUSG00000000214",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000317",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000555",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000049",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000420",
+      "ENSMUSG00000000567"
+    ]
+  },
+  {
+    "tests": ["p-7trt_1/0con_1", "p-7trt_2/0con_1", "p-7trt_1/0con_2"],
+    "genes": [
+      "ENSMUSG00000000088",
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000489",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000244",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000282",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000402",
+      "ENSMUSG00000000411",
+      "ENSMUSG00000000560"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": ["ENSMUSG00000000275", "ENSMUSG00000000305", "ENSMUSG00000000411"]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2"
+    ],
+    "genes": [
+      "ENSMUSG00000000194",
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409",
+      "ENSMUSG00000000489"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": [
+      "ENSMUSG00000000275",
+      "ENSMUSG00000000305",
+      "ENSMUSG00000000346",
+      "ENSMUSG00000000409"
+    ]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3"
+    ],
+    "genes": ["ENSMUSG00000000194", "ENSMUSG00000000305", "ENSMUSG00000000409"]
+  },
+  {
+    "tests": [
+      "p-7trt_1/0con_1",
+      "p-7trt_2/0con_1",
+      "p-7trt_1/0con_2",
+      "p-7trt_2/0con_2",
+      "p-7trt_1/0con_3",
+      "p-7trt_2/0con_3"
+    ],
+    "genes": ["ENSMUSG00000000305", "ENSMUSG00000000409"]
+  }
+]

@@ -218,23 +218,28 @@ $face-1: #c68642;
       border-radius: 10px 10px 15px 5px;
       z-index: 108;
     }
-    .fix-1 {
-      background: black;
-      width: 40px;
-      height: 30px;
-      transform: translate(148px, 245px) rotate(32deg);
-      z-index: 109;
-    }
-    .fix-2 {
-      background: black;
-      width: 40px;
-      height: 30px;
-      transform: translate(91px, 240px) rotate(-25deg);
-      z-index: 109;
+    .fixes {
+      .fix-1 {
+        background: black;
+        width: 40px;
+        height: 30px;
+        transform: translate(148px, 245px) rotate(32deg);
+        z-index: 109;
+      }
+      .fix-2 {
+        background: black;
+        width: 40px;
+        height: 30px;
+        transform: translate(91px, 240px) rotate(-25deg);
+        z-index: 109;
+      }
     }
     .specs {
       animation: anim-specs 2s ease infinite;
       z-index: 115;
+      &:hover {
+        animation-play-state: paused;
+      }
     }
     @keyframes anim-specs {
       0% {

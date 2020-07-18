@@ -1,0 +1,32 @@
+@import '_variables';
+$cursor-width: 30px;
+@keyframes cursorAnim  {
+  0% {
+    transform: scale(1);
+    border: 1.7px solid $color-3;
+  }
+  50% {
+    transform: scale(2);
+    border: 1.5px solid $color-3;
+  }
+  100% {
+    transform: scale(1);
+    border: 1.7px solid $color-3;
+  }
+}
+.cursor {
+  position: absolute;
+
+  background: transparent;
+  border: 2px solid $color-3;
+
+  width: $cursor-width;
+  height: $cursor-width;
+
+  pointer-events: none;
+  z-index: 1000;
+
+  border-radius: 50%;
+  animation: cursorAnim 1.5s ease infinite;
+
+}

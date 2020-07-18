@@ -1,32 +1,54 @@
 doctype html
-meta(name='description' content='Research Student, Web Developer, Linux Enthusiast')
-meta(name='author' content='Abhishek Anil Deshmukh')
-title
-  | Deshmukh
-// Apple Things
-link(rel='apple-touch-icon' href='/custom-icon.png')
-meta(name='apple-mobile-web-app-capable' content='yes')
-meta(name='apple-mobile-web-app-status-bar-style' content='black')
-// fonts
-link(href='https://fonts.googleapis.com/css?family=Quattrocento Sans' rel='stylesheet')
-// stylesheets
-link(rel='stylesheet' href='./static/css/styles.css')
-.container-fluid
-  .row.top-row
-    .col-6
-      .hero
-        include ./static/_face.pug
-    .col-9
-      .header
-        h1 Abhishek Anil Deshmukh
-  .row.carasole
-    .card 1
-    .card 2
-    .card 3
-    .card 4
-    .card 5
-    .card 1
-    .card 2
-    .card 3
-    .card 4
-    .card 5
+html
+  head
+    meta(name='description' content='Research Student, Web Developer, Linux Enthusiast')
+    meta(name='author' content='Abhishek Anil Deshmukh')
+    title
+      | Deshmukh
+    // Apple Things
+    link(rel='apple-touch-icon' href='/custom-icon.png')
+    meta(name='apple-mobile-web-app-capable' content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style' content='black')
+    // stylesheets
+    link(rel='stylesheet' href='./static/css/styles.css')
+  body
+    aside.cursor
+    aside.background DESHMUKH
+    main
+      section.container-fluid.row#top-row
+        article.col-6
+          .hero
+            include ./static/_face.pug
+        article.col-9.header
+          h1 Abhishek Anil Deshmukh
+      section.carasole
+        article.card(style="background:#35DA6D;")
+          .box
+            img(src="./images/nrps_ss.png")
+        article.card(style="background:#35ACDA;")
+          .box
+            img(src="./images/star_logo.png", style="border-radius: 50px;")
+        article.card(style="background:#DAA235;")
+          .box
+            img(src="./images/niser_canteen_ss.png", style="border-radius: 50px;")
+        article.card(style="background:white;")
+          .box
+            img(src="./images/undraw_documentation.png", style="border-radius: 50px;")
+        article.card
+          .box 5
+        article.card(style="background:#35DA6D;")
+          .box
+            img(src="./images/nrps_ss.png")
+        article.card(style="background:#35ACDA;")
+          .box
+            img(src="./images/star_logo.png", style="border-radius: 50px;")
+        article.card(style="background:#DAA235;")
+          .box
+            img(src="./images/niser_canteen_ss.png", style="border-radius: 50px;")
+        article.card
+          .box
+            img(src="./images/undraw_documentation.png", style="border-radius: 50px;")
+        article.card
+          .box 5
+      script(src="./static/js/main.js")
+

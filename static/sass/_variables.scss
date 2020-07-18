@@ -17,6 +17,13 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+$color1: #0e8768;
+$color2: #38c88a;
+$color3: #ead76d;
+$color4: #d25d24;
+$color5: #411831;
+$color-3: #677CF0;
+
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $grays: map-merge(
@@ -1141,3 +1148,5 @@ $positions: static, relative, absolute, fixed, sticky !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+

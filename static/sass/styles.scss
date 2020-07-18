@@ -12,27 +12,41 @@
 
 @import '_bootstrap-grid';
 @import '_hero';
-$color1: #0e8768;
-$color2: #38c88a;
-$color3: #ead76d;
-$color4: #d25d24;
-$color5: #411831;
+@import '_cursor';
+main {
+  height: 100vh;
+}
 
 body {
-  font-family: 'Quattrocento Sans';
+  overflow: hidden;
   background: $color3;
-  overflow-x: hidden;
+  cursor: none;
+  height: 100vh;
 }
-$img-height: 400px;
+$img-height: 50vh;
 .hero {
   position: absolute;
   width: $img-height;
   height: $img-height;
-  margin-top: 30px;
-  margin-left: 125px;
+  margin-left: 8vw;
 }
-.top-row {
-  height: $img-height - 20px;
+
+.background {
+  margin-top: 18vh;
+  margin-left: 17vh;
+
+  position: absolute;
+  z-index: -1;
+
+  font-family: 'Bordeaux Regular';
+  font-size: 12em;
+  letter-spacing: 0.068em;
+  font-weight: 900;
+
+  color: #e3c465;
+}
+#top-row {
+  height: 55vh;
 }
 .header {
   margin-top: 133px;
@@ -43,27 +57,25 @@ $img-height: 400px;
   }
 }
 $number-of-cards: 5;
-$card-size: 300px;
-$card-margin: 30px;
+$card-size: 40vh;
+$card-margin: 4vh;
 .carasole {
+  height: 45vh;
+  display: inline-flex;
+  width: (2 * $number-of-cards * ($card-size + $card-margin));
+  overflow-y: hidden;
+  overflow-x: hidden;
   animation: anime-slide $number-of-cards * 5s linear infinite;
   &:hover {
     animation-play-state: paused;
   }
-  width: 10000px;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  .card {
-    width: $card-size;
-    height: $card-size;
-    background: white;
-    border-radius: 50px;
-    margin-left: $card-margin;
-    margin-right: $card-margin;
-  }
+  @import '_card';
   @keyframes "anime-slide" {
-    100%{transform: translate(-(($card-size + 2*$card-margin)*$number-of-cards), 0px);}
+    100% {
+      transform: translate(
+        -(($card-size + 2 * $card-margin) * $number-of-cards),
+        0px
+      );
+    }
   }
 }

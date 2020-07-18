@@ -13,7 +13,7 @@ html
     link(rel='stylesheet' href='./static/css/styles.css')
   body
     aside.cursor
-    aside.background DESHMUKH
+    aside.background deshmukh
     main
       section.container-fluid.row#top-row
         article.col-6
@@ -21,34 +21,49 @@ html
             include ./static/_face.pug
         article.col-9.header
           h1 Abhishek Anil Deshmukh
+          p
+            button Resume
+            button Contact Me
       section.carasole
-        article.card(style="background:#35DA6D;")
-          .box
-            img(src="./images/nrps_ss.png")
-        article.card(style="background:#35ACDA;")
-          .box
-            img(src="./images/star_logo.png", style="border-radius: 50px;")
-        article.card(style="background:#DAA235;")
-          .box
-            img(src="./images/niser_canteen_ss.png", style="border-radius: 50px;")
-        article.card(style="background:white;")
-          .box
-            img(src="./images/undraw_documentation.png", style="border-radius: 50px;")
-        article.card
-          .box 5
-        article.card(style="background:#35DA6D;")
-          .box
-            img(src="./images/nrps_ss.png")
-        article.card(style="background:#35ACDA;")
-          .box
-            img(src="./images/star_logo.png", style="border-radius: 50px;")
-        article.card(style="background:#DAA235;")
-          .box
-            img(src="./images/niser_canteen_ss.png", style="border-radius: 50px;")
-        article.card
-          .box
-            img(src="./images/undraw_documentation.png", style="border-radius: 50px;")
-        article.card
-          .box 5
+        mixin card(input)
+          article.card(style="background:" + input.color + ";", heading=input.heading, info=input.info)
+            .box
+              img(src="./images/" + input.image_name)
+        -
+          var data = [
+            {
+              heading:"NRPS",
+              info:"A front end to set reverse proxy on nginx, because nginx configs are ugly.",
+              color: "#35DA6D",
+              image_name: "nrps_ss.png"
+            },
+            {
+              heading:"STAR",
+              info:"Convert any python function into a deployable web app.",
+              color: "#35ACDA",
+              image_name:"star_logo.png"
+            },
+            {
+              heading:"Canteen Menu",
+              info:"Canteen menu don't need to be in a table, so, here is a beautiful UI to select what to eat.",
+              color:"#DAA235",
+              image_name: "niser_canteen_ss.png"
+            },
+            {
+              heading:"Documentation Template",
+              info:"Documentation is important for any project, and ugly documentation can be demotivating, and making beautiful ones takes effort, or does it?",
+              color:"#ffffff",
+              image_name: "undraw_documentation.png"
+            },
+            {
+              heading: "DENE",
+              info:"Who said data analysis has to look boring and, be difficult??",
+              color:"#ffffff",
+              image_name: "dene.png"
+            }
+          ];
+        each data_point in data
+          +card(data_point)
+        each data_point in data
+          +card(data_point)
       script(src="./static/js/main.js")
-

@@ -1,8 +1,9 @@
+$border-radius: 50px;
 .card {
   width: $card-size !important;
   height: $card-size !important;
   background: white;
-  border-radius: 50px;
+  border-radius: $border-radius;
   margin-left: $card-margin;
   margin-right: $card-margin;
   transition: 0.3s;
@@ -15,6 +16,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: $border-radius;
+  overflow:hidden;
   }
   &:hover {
     border-radius: 5px;

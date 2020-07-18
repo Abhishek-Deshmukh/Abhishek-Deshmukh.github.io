@@ -9,10 +9,17 @@
   font-weight: 400;
   src: url(../fonts/Bordeaux-Regular.ttf);
 }
+@font-face {
+  font-family: 'Poppins Light';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Poppins-Light.ttf);
+}
 
 @import '_bootstrap-grid';
 @import '_hero';
 @import '_cursor';
+@import '_buttons';
 main {
   height: 100vh;
 }
@@ -40,7 +47,7 @@ $img-height: 50vh;
 
   font-family: 'Bordeaux Regular';
   font-size: 12em;
-  letter-spacing: 0.068em;
+  letter-spacing: 0.089em;
   font-weight: 900;
 
   color: #e3c465;
@@ -54,6 +61,9 @@ $img-height: 50vh;
     font-family: 'Bordeaux Regular';
     font-size: 63px;
     font-weight: 500;
+  }
+  p{
+    font-family: 'Poppins Light'
   }
 }
 $number-of-cards: 5;

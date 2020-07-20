@@ -29,6 +29,31 @@ body {
   background: $color3;
   height: 100vh;
 }
+h1 {
+  font-family: 'Bordeaux Regular';
+  font-size: 40px;
+}
+
+#contact-page {
+  a {
+    font-family: 'Poppins Light';
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+    &:hover {
+      color: $color3;
+      background: $color2;
+      font-size: 27px;
+    }
+  }
+  article {
+    margin-top: 62px;
+    margin-left: 115px;
+    line-height: 1.8;
+    font-size: 24px;
+    letter-spacing: 0.042em;
+  }
+}
 * {
   cursor: none;
 }
@@ -64,8 +89,8 @@ $img-height: 50vh;
     font-size: 63px;
     font-weight: 500;
   }
-  p{
-    font-family: 'Poppins Light'
+  p {
+    font-family: 'Poppins Light';
   }
 }
 $number-of-cards: 5;

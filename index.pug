@@ -1,8 +1,9 @@
 doctype html
 html
   head
-    meta(name='description' content='Research Student, Web Developer, Linux Enthusiast')
-    meta(name='author' content='Abhishek Anil Deshmukh')
+    meta(name='author', content='Abhishek Anil Deshmukh')
+    meta(name='description', content='Hi, I am Abhishek Anil Deshmukh, a research student, a web developer, a linux enthusiast and an athelete. Here are a few of my note worthy projects, and a contact info with my resume.')
+    meta(name='keywords', content='Web developer, Abhishek, Deshmukh, Abhishek Anil Deshmukh, full stack developer, UI developer, freelance wed designer, linux, ubuntu, bash, science, physics, computer science, scientist')
     title
       | Deshmukh
     // Apple Things
@@ -22,44 +23,50 @@ html
         article.col-9.header
           h1 Abhishek Anil Deshmukh
           p
-            button Resume
-            button Contact Me
+            a.button(href="./cv.pdf") Resume
+            a.button(href="./contact.html") Contact Me
       section.carasole
         mixin card(input)
           article.card(style="background:" + input.color + ";", heading=input.heading, info=input.info)
-            .box
-              img(src="./images/" + input.image_name)
+            figure.box
+              a(href=input.link, target="_blank")
+                img(src="./images/" + input.image_name)
         -
           var data = [
             {
-              heading:"NRPS",
+              heading:"nrps",
               info:"A front end to set reverse proxy on nginx, because nginx configs are ugly.",
               color: "#35DA6D",
-              image_name: "nrps_ss.png"
+              image_name: "nrps_ss.png",
+              link: "https://github.com/Abhishek-Deshmukh/nrps"
             },
             {
-              heading:"STAR",
+              heading:"star",
               info:"Convert any python function into a deployable web app.",
               color: "#35ACDA",
-              image_name:"star_logo.png"
+              image_name:"star_logo.png",
+              link: "https://github.com/Abhishek-Deshmukh/STAR"
             },
             {
               heading:"Canteen Menu",
               info:"Canteen menu don't need to be in a table, so, here is a beautiful UI to select what to eat.",
               color:"#DAA235",
-              image_name: "niser_canteen_ss.png"
+              image_name: "niser_canteen_ss.png",
+              link: "https://www.niser.ac.in/~smishra/canteen-menu/"
             },
             {
               heading:"Documentation Template",
               info:"Documentation is important for any project, and ugly documentation can be demotivating, and making beautiful ones takes effort, or does it?",
               color:"#ffffff",
-              image_name: "undraw_documentation.png"
+              image_name: "undraw_documentation.png",
+              link: "https://github.com/Abhishek-Deshmukh/Documentation-Template"
             },
             {
-              heading: "DENE",
+              heading: "dENE",
               info:"Who said data analysis has to look boring and, be difficult??",
               color:"#ffffff",
-              image_name: "dene.png"
+              image_name: "dene.png",
+              link: "#"
             }
           ];
         each data_point in data

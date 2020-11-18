@@ -2,8 +2,8 @@ doctype html
 html
   head
     meta(name='author', content='Abhishek Anil Deshmukh')
-    meta(name='description', content='Hi, I am Abhishek Anil Deshmukh, a research student, a web developer, a linux enthusiast and an athelete. Here are a few of my note worthy projects, and a contact info with my resume.')
-    meta(name='keywords', content='Web developer, Abhishek, Deshmukh, Abhishek Anil Deshmukh, full stack developer, UI developer, freelance wed designer, linux, ubuntu, bash, science, physics, computer science, scientist')
+    meta(name='description', content='Hi, I am Abhishek Anil Deshmukh, a research student, a web developer, a linux enthusiast and an athlete. Here are a few of my note worthy projects, and a contact info with my resume.')
+    meta(name='keywords', content='Web developer, Abhishek, Deshmukh, Abhishek Anil Deshmukh, full stack developer, UI developer, freelance wed developer, linux, ubuntu, bash, science, physics, computer science, scientist')
     title
       | Deshmukh
     // Apple Things
@@ -17,14 +17,14 @@ html
     aside.background deshmukh
     main
       section.container-fluid.row#top-row
-        article.col-6
-          .hero
-            include ./static/_face.pug
-        article.col-9.header
+        article.col-lg-6.col-md-6.col-sm-12.header
           h1 Abhishek Anil Deshmukh
           p
             a.button(href="./cv.pdf") Resume
             a.button(href="./contact.html") Contact Me
+        article.col-lg-4.col-md-6.col-sm-12
+          .hero
+            include ./static/_face.pug
       section.carasole
         mixin card(input)
           article.card(style="background:" + input.color + ";", heading=input.heading, info=input.info)

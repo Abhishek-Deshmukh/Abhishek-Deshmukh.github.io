@@ -1,4 +1,4 @@
-$border-radius: 50px;
+$border-radius: 15px;
 .card {
   width: $card-size !important;
   height: $card-size !important;
@@ -20,7 +20,7 @@ $border-radius: 50px;
   overflow:hidden;
   }
   &:hover {
-    border-radius: 5px;
+    transform: scale(0.9);
   }
   img {
     max-width: $card-size;

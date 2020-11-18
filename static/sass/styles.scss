@@ -20,14 +20,11 @@
 @import '_hero';
 @import '_cursor';
 @import '_buttons';
-main {
-  height: 100vh;
-}
 
 body {
-  overflow: hidden;
+  overflow-X: hidden;
+  overflow-Y: scroll;
   background: $color3;
-  height: 100vh;
 }
 h1 {
   font-family: 'Bordeaux Regular';
@@ -66,8 +63,8 @@ $img-height: 50vh;
 }
 
 .background {
-  margin-top: 18vh;
-  margin-left: 17vh;
+  margin-top: 24vh;
+  margin-left: 27vw;
 
   position: absolute;
   z-index: -1;
@@ -84,6 +81,7 @@ $img-height: 50vh;
 }
 .header {
   margin-top: 133px;
+  margin-left: 10vw;
   h1 {
     font-family: 'Bordeaux Regular';
     font-size: 63px;
@@ -102,7 +100,7 @@ $card-margin: 4vh;
   width: (2 * $number-of-cards * ($card-size + $card-margin));
   overflow-y: hidden;
   overflow-x: hidden;
-  animation: anime-slide $number-of-cards * 5s linear infinite;
+  animation: anime-slide $number-of-cards * 25s linear infinite;
   &:hover {
     animation-play-state: paused;
   }

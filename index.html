@@ -1,5 +1,5 @@
-<!DOCTYPE html
-><!-- HTML5 -->
+<!DOCTYPE html>
+<!-- HTML5 -->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -20,9 +20,7 @@
       content="Research Student, Web Developer, Linux Enthusiast"
     />
     <meta name="author" content="Abhishek Anil Deshmukh" />
-    <title>
-      Deshmukh
-    </title>
+    <title>Deshmukh</title>
 
     <!-- Apple Things -->
     <link rel="apple-touch-icon" href="/custom-icon.png" />
@@ -36,19 +34,16 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="static/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap-grid.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/styles.css" />
     <script
       src="https://kit.fontawesome.com/8cb41f5368.js"
       crossorigin="anonymous"
     ></script>
-    <style>
-      .rounded-circle-right {
-        border-radius: 0 23px 23px 0;
-      }
-      a {
-        color: blue;
-      }
-    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -65,352 +60,396 @@
     </script>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-          <br />
-          <img
-            src="./images/hero2.jpg"
-            class="rounded-circle img-thumbnail"
-            alt="Profile Photo"
-          />
-        </div>
-        <div class="col-sm-12 col-md-9 col-lg-8">
-          <br />
-          <h1>Abhishek Anil Deshmukh</h1>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Human Languages</span><br />
-            <span class="btn btn-primary">English</span>
-            <span class="btn btn-primary">मराठी</span>
-            <span class="btn btn-primary rounded-circle-right">हिन्दी</span>
-          </div>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Platforms</span><br />
-            <span class="btn btn-primary">Arch Linux</span>
-            <span class="btn btn-primary"
-              ><i class="fab fa-ubuntu fa-lg"></i
-            ></span>
-            <span class="btn btn-primary"
-              ><i class="fab fa-fedora fa-lg"></i
-            ></span>
-            <span class="btn btn-primary"
-              ><i class="fab fa-centos fa-lg"></i
-            ></span>
-            <span class="btn btn-primary rounded-circle-right"
-              ><i class="fab fa-windows"></i
-            ></span>
-          </div>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Computer Languages</span><br />
-            <span class="btn btn-primary"
-              ><i class="fab fa-python fa-lg"></i
-            ></span>
-            <span class="btn btn-primary">C++</span>
-            <span class="btn btn-primary rounded-circle-right"><b>TS</b></span>
-          </div>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Intends</span><br />
-            <span class="btn btn-primary rounded-circle-right"
-              ><i class="fa fa-indent"></i> Tabs</span
-            >
-          </div>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Institutes</span><br />
-            <span class="btn btn-primary" data-toggle="collapse" href="#school"
-              >School</span
-            >
-            <span class="btn btn-primary" data-toggle="collapse" href="#jr-clg"
-              >Jr. College</span
-            >
-            <span
-              class="btn btn-primary rounded-circle-right"
-              data-toggle="collapse"
-              href="#clg"
-              >Int. MSc.</span
-            >
-          </div>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Code editor</span><br />
-            <span class="btn btn-primary rounded-circle-right"><b>Vim</b></span>
-          </div>
-          <div class="d-inline-block p-2">
-            <span class="text-muted">Blog</span><br />
-            <span class="btn btn-primary rounded-circle-right"
-              ><b><a href="https://blog.deshmukh.ml">Blog</a></b></span
-            >
-          </div>
-          <div class="collapse" id="school">
-            <div class="card card-body">
-              Abhinav Vidyalay ICSE
-            </div>
-          </div>
-          <div class="collapse" id="jr-clg">
-            <div class="card card-body">
-              Pace Jr. College
-            </div>
-          </div>
-          <div class="collapse" id="clg">
-            <div class="card card-body">
-              National Institute of Science Education and Research(NISER)
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-5 col-xl-4">
-            <ul>
-              <li>Research Student.<br /></li>
-              <li>Physics Major. Graduating in 2023.<br /></li>
-              <li>Disha fellow.<br /></li>
-              <li>Has Experience in full-stack development.<br /></li>
-              <li>Linux Enthusiast.<br /></li>
-            </ul>
-            <div class="text-center">
-              <a href="./cv.pdf" class="btn btn-info">Resume</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-7 col-cl-8">
-            <div class="d-inline-block p-2">
-              <span class="text-muted">Projects Undertaken</span><br />
-              <span
-                class="btn btn-primary mb-1"
-                data-toggle="collapse"
-                href="#SPR"
-                >SPR simulation using FDTD</span
-              >
-              <span
-                class="btn btn-primary mb-1"
-                data-toggle="collapse"
-                href="#Gene"
-                >Genomic Data analysis with GUI</span
-              >
-              <span
-                class="btn btn-primary mb-1"
-                data-toggle="collapse"
-                href="#DRP-6"
-                >Bio-chemical Properties of DRP-6</span
-              >
-              <span
-                class="btn btn-primary rounded-circle-right mb-1"
-                data-toggle="collapse"
-                href="#ferro"
-                >Ferrofluids</span
-              >
-              <div class="collapse" id="SPR">
-                <div class="card card-body">
-                  Under Dr.Pratap Kumar Sahoo
-                </div>
-              </div>
-              <div class="collapse" id="Gene">
-                <div class="card card-body">
-                  Under Dr. Palok Aich
-                </div>
-              </div>
-              <div class="collapse" id="DRP-6">
-                <div class="card card-body">
-                  Under Dr. Abdur Rahaman
-                </div>
-              </div>
-              <div class="collapse" id="ferro">
-                <div class="card card-body">
-                  Under Dr. Kedar Soni
-                </div>
-              </div>
-            </div>
-            <div class="d-inline-block p-2">
-              <span class="text-muted">Tools I use(Science)</span><br />
-              <span class="btn btn-primary mb-1">GNUPlot</span>
-              <span class="btn btn-primary mb-1">PyPlot</span>
-              <span class="btn btn-primary mb-1">SciPy</span>
-              <span class="btn btn-primary mb-1">OpenCV</span>
-              <span class="btn btn-primary mb-1">Numpy</span>
-              <span class="btn btn-primary mb-1">Numba</span>
-              <span class="btn btn-primary mb-1"><b>Vim</b></span>
-              <span class="btn btn-primary rounded-circle-right mb-1"
-                >Pymol</span
-              >
-            </div>
-            <div class="d-inline-block p-2">
-              <span class="text-muted">Tools I use(Web Development)</span><br />
-              <span class="btn btn-primary mb-1">Vim</span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-git fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-github fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-node-js fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-sass fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-bootstrap fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-aws fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1"
-                ><i class="fab fa-vuejs fa-lg"></i
-              ></span>
-              <span class="btn btn-primary mb-1">Flutter</span>
-              <span class="btn btn-primary rounded-circle-right mb-1"
-                >Electron</span
-              >
-            </div>
-            <div class="d-inline-block p-2">
-              <span class="text-muted">Social Media</span><br />
-              <a href="https://www.facebook.com/deshmukh123.abhi"
-                ><span class="btn btn-primary mb-1"
-                  ><i class="fab fa-facebook fa-lg"></i></span
-              ></a>
-              <a href="https://twitter.com/dunce007"
-                ><span class="btn btn-primary mb-1"
-                  ><i class="fab fa-twitter fa-lg"></i></span
-              ></a>
-              <a href="mailto:abhishek.deshmukh@niser.ac.in"
-                ><span class="btn btn-primary mb-1"
-                  ><i class="fas fa-at fa-lg"></i></span
-              ></a>
-              <a href="http://www.github.com/abhishek-deshmukh"
-                ><span class="btn btn-primary rounded-circle-right mb-1"
-                  ><i class="fab fa-github fa-lg"></i></span
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
-        <h1>My Work</h1>
-        <div class="row">
-          <div class="col-sm-12 col-md-4 col-lg-3 pt-3">
-            <div class="card">
-              <img
-                src="./images/nrps_logo.png"
-                class="card-img-top"
-                alt="NRPS"
-                style="background: white; padding: 5px;"
-              />
-              <div class="card-body">
-                <h5 class="card-title">NRPS</h5>
-                <p class="card-text">
-                  Nginx Reverse Proxy setter, a beautiful front end for setting
-                  the nginx conf.
-                </p>
-                <a
-                  href="https://github.com/Abhishek-Deshmukh/nrps"
-                  class="btn btn-primary"
-                  >Checkout</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-3 pt-3">
-            <div class="card">
-              <img
-                src="./images/star_logo.png"
-                class="card-img-top"
-                alt="STAR"
-                style="
-                  background: white;
-                  height: 210px !important;
-                  padding-bottom: 5px;
-                  padding-left: 60px;
-                  padding-right: 60px;
-                "
-              />
-              <div class="card-body">
-                <h5 class="card-title">STAR</h5>
-                <p class="card-text">Turn application into a web app</p>
-                <a
-                  href="https://github.com/Abhishek-Deshmukh/STAR"
-                  class="btn btn-primary"
-                  >Checkout</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-3 pt-3">
-            <div class="card">
-              <img
-                src="./images/undraw_data_extraction.png"
-                class="card-img-top"
-                alt="WEC"
-              />
-              <div class="card-body">
-                <h5 class="card-title">WEC</h5>
-                <p class="card-text">A web crawling email collector</p>
-                <a
-                  href="https://github.com/Abhishek-Deshmukh/WEC"
-                  class="btn btn-primary"
-                  >Checkout</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-3 pt-3">
-            <div class="card">
-              <img
-                src="./images/undraw_documentation.png"
-                class="card-img-top"
-                alt="Documentaion"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Documentation</h5>
-                <p class="card-text">Docusarus + Mathjax</p>
-                <a
-                  href="https://github.com/Abhishek-Deshmukh/Documentation-Template"
-                  class="btn btn-primary"
-                  >Checkout</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-3 pt-3">
-            <div class="card">
-              <img
-                src="./images/undraw_mail.png"
-                class="card-img-top"
-                alt="Email Template"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Email template</h5>
-                <p class="card-text">HTML e-mail template</p>
-                <a
-                  href="https://github.com/abhishek-deshmukh/mail-template"
-                  class="btn btn-primary"
-                  >Checkout</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-4 col-lg-3 pt-3">
-            <div class="card">
-              <img
-                src="./images/integration.jpg"
-                class="card-img-top"
-                alt="Integrator"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Integrator</h5>
-                <p class="card-text">Integrating geometrically</p>
-                <a
-                  href="https://github.com/Abhishek-Deshmukh/integrator"
-                  class="btn btn-primary"
-                  >Checkout</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <header>
+      <h1 class="hey">Hey,</h1>
+      <h1 class="name">I'm Abhishek Anil Deshmukh</h1>
+      <span class="swiggly-lines">www</span>
+      <span class="swiggly-lines2">www</span>
+      <a href="#i-code-for" class="down-arrow">
+        <i class="far fa-arrow-alt-circle-down"></i>
+      </a>
+    </header>
+    <div class="heading-container col-12">
+      <h2 class="heading">I code for</h2>
     </div>
+    <section class="container-fluid" id="i-code-for">
+      <div class="row">
+        <article class="col-lg-4 col-md-4 col-sm-6 subsection" id="design">
+          <h3>Design</h3>
+          <ul>
+            <li id="ts">TS</li>
+            <li id="vue">Vue</li>
+            <li id="react">React</li>
+            <li id="figma">Figma</li>
+            <li id="css">CSS</li>
+            <li id="bootstrap">Bootstrap</li>
+            <li id="JS">JS</li>
+            <li id="HTML">HTML</li>
+            <li id="Pug">Pug</li>
+            <li id="Gatsby">Gatsby</li>
+            <li id="SASS">SASS</li>
+          </ul>
+        </article>
+        <article class="col-lg-4 col-md-4 col-sm-6 subsection" id="science">
+          <h3>Science</h3>
+          <ul>
+            <li id="python">Python</li>
+            <li id="pymol">PyMol</li>
+            <li id="opencv">OpenCV</li>
+            <li id="c++">C++</li>
+            <li id="c">C</li>
+            <li id="keras">Keras</li>
+            <li id="jupyter">Jupyter</li>
+            <li id="numpy">Numpy</li>
+            <li id="numba">Numba</li>
+            <li id="scipy">Scipy</li>
+            <li id="matplotlib">Matplotlib</li>
+            <li id="bokeh">Bokeh</li>
+          </ul>
+        </article>
+        <article class="col-lg-4 col-md-4 col-sm-12 subsection" id="web">
+          <h3>The web.</h3>
+          <ul>
+            <li class="django">Django</li>
+            <li class="node">NodeJS</li>
+            <li class="hapi">HAPI</li>
+            <li class="express">Express</li>
+            <li class="flask">Flask</li>
+            <li class="httpie">HTTPie</li>
+            <li class="https">HTTPS</li>
+            <li class="nginx">Nginx</li>
+            <li class="aws">AWS</li>
+            <li class="sql">SQL</li>
+            <li class="postgres">Postgres</li>
+          </ul>
+        </article>
+        <!-- <div class="col-sm-12 col-md-3 col-lg-3 mb-2"> -->
+        <!--   <br /> -->
+        <!-- </div> -->
+        <!-- <div class="col-sm-12 col-md-9 col-lg-8"> -->
+        <!--   <br /> -->
+        <!--   <h1>Abhishek Anil Deshmukh</h1> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Human Languages</span><br /> -->
+        <!--     <span class="btn btn-primary">English</span> -->
+        <!--     <span class="btn btn-primary">मराठी</span> -->
+        <!--     <span class="btn btn-primary rounded-circle-right">हिन्दी</span> -->
+        <!--   </div> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Platforms</span><br /> -->
+        <!--     <span class="btn btn-primary">Arch Linux</span> -->
+        <!--     <span class="btn btn-primary" -->
+        <!--       ><i class="fab fa-ubuntu fa-lg"></i -->
+        <!--     ></span> -->
+        <!--     <span class="btn btn-primary" -->
+        <!--       ><i class="fab fa-fedora fa-lg"></i -->
+        <!--     ></span> -->
+        <!--     <span class="btn btn-primary" -->
+        <!--       ><i class="fab fa-centos fa-lg"></i -->
+        <!--     ></span> -->
+        <!--     <span class="btn btn-primary rounded-circle-right" -->
+        <!--       ><i class="fab fa-windows"></i -->
+        <!--     ></span> -->
+        <!--   </div> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Computer Languages</span><br /> -->
+        <!--     <span class="btn btn-primary" -->
+        <!--       ><i class="fab fa-python fa-lg"></i -->
+        <!--     ></span> -->
+        <!--     <span class="btn btn-primary">C++</span> -->
+        <!--     <span class="btn btn-primary rounded-circle-right"><b>TS</b></span> -->
+        <!--   </div> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Intends</span><br /> -->
+        <!--     <span class="btn btn-primary rounded-circle-right" -->
+        <!--       ><i class="fa fa-indent"></i> Tabs</span -->
+        <!--     > -->
+        <!--   </div> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Institutes</span><br /> -->
+        <!--     <span class="btn btn-primary" data-toggle="collapse" href="#school" -->
+        <!--       >School</span -->
+        <!--     > -->
+        <!--     <span class="btn btn-primary" data-toggle="collapse" href="#jr-clg" -->
+        <!--       >Jr. College</span -->
+        <!--     > -->
+        <!--     <span -->
+        <!--       class="btn btn-primary rounded-circle-right" -->
+        <!--       data-toggle="collapse" -->
+        <!--       href="#clg" -->
+        <!--       >Int. MSc.</span -->
+        <!--     > -->
+        <!--   </div> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Code editor</span><br /> -->
+        <!--     <span class="btn btn-primary rounded-circle-right"><b>Vim</b></span> -->
+        <!--   </div> -->
+        <!--   <div class="d-inline-block p-2"> -->
+        <!--     <span class="text-muted">Blog</span><br /> -->
+        <!--     <span class="btn btn-primary rounded-circle-right" -->
+        <!--       ><b><a href="https://blog.deshmukh.ml">Blog</a></b></span -->
+        <!--     > -->
+        <!--   </div> -->
+        <!--   <div class="collapse" id="school"> -->
+        <!--     <div class="card card-body">Abhinav Vidyalay ICSE</div> -->
+        <!--   </div> -->
+        <!--   <div class="collapse" id="jr-clg"> -->
+        <!--     <div class="card card-body">Pace Jr. College</div> -->
+        <!--   </div> -->
+        <!--   <div class="collapse" id="clg"> -->
+        <!--     <div class="card card-body"> -->
+        <!--       National Institute of Science Education and Research(NISER) -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="jumbotron"> -->
+        <!-- <div class="row"> -->
+        <!--   <div class="col-sm-12 col-md-6 col-lg-5 col-xl-4"> -->
+        <!--     <ul> -->
+        <!--       <li>Research Student.<br /></li> -->
+        <!--       <li>Physics Major. Graduating in 2023.<br /></li> -->
+        <!--       <li>Disha fellow.<br /></li> -->
+        <!--       <li>Has Experience in full-stack development.<br /></li> -->
+        <!--       <li>Linux Enthusiast.<br /></li> -->
+        <!--     </ul> -->
+        <!--     <div class="text-center"> -->
+        <!--       <a href="./cv.pdf" class="btn btn-info">Resume</a> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!--   <div class="col-sm-12 col-md-6 col-lg-7 col-cl-8"> -->
+        <!--     <div class="d-inline-block p-2"> -->
+        <!--       <span class="text-muted">Projects Undertaken</span><br /> -->
+        <!--       <span -->
+        <!--         class="btn btn-primary mb-1" -->
+        <!--         data-toggle="collapse" -->
+        <!--         href="#SPR" -->
+        <!--         >SPR simulation using FDTD</span -->
+        <!--       > -->
+        <!--       <span -->
+        <!--         class="btn btn-primary mb-1" -->
+        <!--         data-toggle="collapse" -->
+        <!--         href="#Gene" -->
+        <!--         >Genomic Data analysis with GUI</span -->
+        <!--       > -->
+        <!--       <span -->
+        <!--         class="btn btn-primary mb-1" -->
+        <!--         data-toggle="collapse" -->
+        <!--         href="#DRP-6" -->
+        <!--         >Bio-chemical Properties of DRP-6</span -->
+        <!--       > -->
+        <!--       <span -->
+        <!--         class="btn btn-primary rounded-circle-right mb-1" -->
+        <!--         data-toggle="collapse" -->
+        <!--         href="#ferro" -->
+        <!--         >Ferrofluids</span -->
+        <!--       > -->
+        <!--       <div class="collapse" id="SPR"> -->
+        <!--         <div class="card card-body">Under Dr.Pratap Kumar Sahoo</div> -->
+        <!--       </div> -->
+        <!--       <div class="collapse" id="Gene"> -->
+        <!--         <div class="card card-body">Under Dr. Palok Aich</div> -->
+        <!--       </div> -->
+        <!--       <div class="collapse" id="DRP-6"> -->
+        <!--         <div class="card card-body">Under Dr. Abdur Rahaman</div> -->
+        <!--       </div> -->
+        <!--       <div class="collapse" id="ferro"> -->
+        <!--         <div class="card card-body">Under Dr. Kedar Soni</div> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--     <div class="d-inline-block p-2"> -->
+        <!--       <span class="text-muted">Tools I use(Science)</span><br /> -->
+        <!--       <span class="btn btn-primary mb-1">GNUPlot</span> -->
+        <!--       <span class="btn btn-primary mb-1">PyPlot</span> -->
+        <!--       <span class="btn btn-primary mb-1">SciPy</span> -->
+        <!--       <span class="btn btn-primary mb-1">OpenCV</span> -->
+        <!--       <span class="btn btn-primary mb-1">Numpy</span> -->
+        <!--       <span class="btn btn-primary mb-1">Numba</span> -->
+        <!--       <span class="btn btn-primary mb-1"><b>Vim</b></span> -->
+        <!--       <span class="btn btn-primary rounded-circle-right mb-1" -->
+        <!--         >Pymol</span -->
+        <!--       > -->
+        <!--     </div> -->
+        <!--     <div class="d-inline-block p-2"> -->
+        <!--       <span class="text-muted">Tools I use(Web Development)</span><br /> -->
+        <!--       <span class="btn btn-primary mb-1">Vim</span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-git fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-github fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-node-js fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-sass fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-bootstrap fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-aws fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1" -->
+        <!--         ><i class="fab fa-vuejs fa-lg"></i -->
+        <!--       ></span> -->
+        <!--       <span class="btn btn-primary mb-1">Flutter</span> -->
+        <!--       <span class="btn btn-primary rounded-circle-right mb-1" -->
+        <!--         >Electron</span -->
+        <!--       > -->
+        <!--     </div> -->
+        <!--     <div class="d-inline-block p-2"> -->
+        <!--       <span class="text-muted">Social Media</span><br /> -->
+        <!--       <a href="https://www.facebook.com/deshmukh123.abhi" -->
+        <!--         ><span class="btn btn-primary mb-1" -->
+        <!--           ><i class="fab fa-facebook fa-lg"></i></span -->
+        <!--       ></a> -->
+        <!--       <a href="https://twitter.com/dunce007" -->
+        <!--         ><span class="btn btn-primary mb-1" -->
+        <!--           ><i class="fab fa-twitter fa-lg"></i></span -->
+        <!--       ></a> -->
+        <!--       <a href="mailto:abhishek.deshmukh@niser.ac.in" -->
+        <!--         ><span class="btn btn-primary mb-1" -->
+        <!--           ><i class="fas fa-at fa-lg"></i></span -->
+        <!--       ></a> -->
+        <!--       <a href="http://www.github.com/abhishek-deshmukh" -->
+        <!--         ><span class="btn btn-primary rounded-circle-right mb-1" -->
+        <!--           ><i class="fab fa-github fa-lg"></i></span -->
+        <!--       ></a> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="jumbotron"> -->
+        <!-- <h1>My Work</h1> -->
+        <!-- <div class="row"> -->
+        <!--   <div class="col-sm-12 col-md-4 col-lg-3 pt-3"> -->
+        <!--     <div class="card"> -->
+        <!--       <img -->
+        <!--         src="./images/nrps_logo.png" -->
+        <!--         class="card-img-top" -->
+        <!--         alt="NRPS" -->
+        <!--         style="background: white; padding: 5px" -->
+        <!--       /> -->
+        <!--       <div class="card-body"> -->
+        <!--         <h5 class="card-title">NRPS</h5> -->
+        <!--         <p class="card-text"> -->
+        <!--           Nginx Reverse Proxy setter, a beautiful front end for setting -->
+        <!--           the nginx conf. -->
+        <!--         </p> -->
+        <!--         <a -->
+        <!--           href="https://github.com/Abhishek-Deshmukh/nrps" -->
+        <!--           class="btn btn-primary" -->
+        <!--           >Checkout</a -->
+        <!--         > -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+
+        <!--   <div class="col-sm-12 col-md-4 col-lg-3 pt-3"> -->
+        <!--     <div class="card"> -->
+        <!--       <img -->
+        <!--         src="./images/star_logo.png" -->
+        <!--         class="card-img-top" -->
+        <!--         alt="STAR" -->
+        <!--         style=" -->
+        <!--           background: white; -->
+        <!--           height: 210px !important; -->
+        <!--           padding-bottom: 5px; -->
+        <!--           padding-left: 60px; -->
+        <!--           padding-right: 60px; -->
+        <!--         " -->
+        <!--       /> -->
+        <!--       <div class="card-body"> -->
+        <!--         <h5 class="card-title">STAR</h5> -->
+        <!--         <p class="card-text">Turn application into a web app</p> -->
+        <!--         <a -->
+        <!--           href="https://github.com/Abhishek-Deshmukh/STAR" -->
+        <!--           class="btn btn-primary" -->
+        <!--           >Checkout</a -->
+        <!--         > -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+
+        <!--   <div class="col-sm-12 col-md-4 col-lg-3 pt-3"> -->
+        <!--     <div class="card"> -->
+        <!--       <img -->
+        <!--         src="./images/undraw_data_extraction.png" -->
+        <!--         class="card-img-top" -->
+        <!--         alt="WEC" -->
+        <!--       /> -->
+        <!--       <div class="card-body"> -->
+        <!--         <h5 class="card-title">WEC</h5> -->
+        <!--         <p class="card-text">A web crawling email collector</p> -->
+        <!--         <a -->
+        <!--           href="https://github.com/Abhishek-Deshmukh/WEC" -->
+        <!--           class="btn btn-primary" -->
+        <!--           >Checkout</a -->
+        <!--         > -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+
+        <!--   <div class="col-sm-12 col-md-4 col-lg-3 pt-3"> -->
+        <!--     <div class="card"> -->
+        <!--       <img -->
+        <!--         src="./images/undraw_documentation.png" -->
+        <!--         class="card-img-top" -->
+        <!--         alt="Documentaion" -->
+        <!--       /> -->
+        <!--       <div class="card-body"> -->
+        <!--         <h5 class="card-title">Documentation</h5> -->
+        <!--         <p class="card-text">Docusarus + Mathjax</p> -->
+        <!--         <a -->
+        <!--           href="https://github.com/Abhishek-Deshmukh/Documentation-Template" -->
+        <!--           class="btn btn-primary" -->
+        <!--           >Checkout</a -->
+        <!--         > -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+
+        <!--   <div class="col-sm-12 col-md-4 col-lg-3 pt-3"> -->
+        <!--     <div class="card"> -->
+        <!--       <img -->
+        <!--         src="./images/undraw_mail.png" -->
+        <!--         class="card-img-top" -->
+        <!--         alt="Email Template" -->
+        <!--       /> -->
+        <!--       <div class="card-body"> -->
+        <!--         <h5 class="card-title">Email template</h5> -->
+        <!--         <p class="card-text">HTML e-mail template</p> -->
+        <!--         <a -->
+        <!--           href="https://github.com/abhishek-deshmukh/mail-template" -->
+        <!--           class="btn btn-primary" -->
+        <!--           >Checkout</a -->
+        <!--         > -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+
+        <!--   <div class="col-sm-12 col-md-4 col-lg-3 pt-3"> -->
+        <!--     <div class="card"> -->
+        <!--       <img -->
+        <!--         src="./images/integration.jpg" -->
+        <!--         class="card-img-top" -->
+        <!--         alt="Integrator" -->
+        <!--       /> -->
+        <!--       <div class="card-body"> -->
+        <!--         <h5 class="card-title">Integrator</h5> -->
+        <!--         <p class="card-text">Integrating geometrically</p> -->
+        <!--         <a -->
+        <!--           href="https://github.com/Abhishek-Deshmukh/integrator" -->
+        <!--           class="btn btn-primary" -->
+        <!--           >Checkout</a -->
+        <!--         > -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
   </body>
 </html>

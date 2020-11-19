@@ -1,0 +1,159 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inconsolata&family=PT+Mono&family=Roboto&family=Shadows+Into+Light&display=swap');
+/* how to use fonts */
+/* { */
+/*   font-family: 'Fira Code', monospace; */
+/*   font-family: 'Inconsolata', monospace; */
+/*   font-family: 'PT Mono', monospace; */
+/*   font-family: 'Roboto', sans-serif; */
+/*   font-family: 'Shadows Into Light', cursive; */
+/* } */
+
+/* boiler plate */
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  padding: 0 10% 0 10%;
+}
+header .hey {
+  position: absolute;
+  font-size: 61px;
+  font-family: 'Inconsolata', monospace;
+}
+header .hey::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 50px;
+  color: transparent;
+  background: rgba(199, 72, 72, 0.51);
+  transform: translate(30px, -30px);
+}
+header .name {
+  margin: auto;
+  font-family: 'PT Mono', monospace;
+  font-size: 50px;
+  text-align: center;
+}
+.swiggly-lines {
+  margin-left: 40vw;
+  position: absolute;
+  font-family: Fira Code;
+  font-size: 125px;
+  opacity: 0.2;
+  transform: rotate(-23.96deg);
+}
+.swiggly-lines2{
+  margin-left: 33vw;
+  position: absolute;
+  font-family: Fira Code;
+  font-size: 125px;
+  opacity: 0.2;
+  transform: rotate(-23.96deg);
+}
+.down-arrow {
+  position: absolute;
+  margin: 69vh 0px 0px 69vw;
+  width: 111px !important;
+  height: 111px !important;
+  background: transparent;
+  font-size: 100px;
+  color: black;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading-container {
+  z-index: 2;
+  position: absolute;
+  height: 17vh;
+  /* margin-top: 80vh; */
+  width: 100vw;
+  display: flex;
+}
+.heading-container .heading {
+  margin: auto;
+  color: #c74848;
+  font-family: PT Mono;
+  font-size: min(11.7vh, 144px);
+}
+.row {
+  height: 100vh;
+}
+.subsection {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  transition: all 0.2s;
+}
+.subsection * {
+  margin: auto;
+}
+#design {
+  font-family: 'Shadows Into Light', cursive;
+  background: #ffffff;
+}
+#design:hover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/hero-design.jpg');
+}
+#design h3 {
+  font-size: min(7vw, 64px);
+}
+ul {
+  text-align: center;
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 20vh 0 0 0;
+  opacity: 0.3;
+  font-size: min(40px, 3.4vw);
+}
+#science {
+  font-family: 'Roboto', sans-serif;
+  background: #919191;
+}
+#science:hover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/hero-science.png');
+}
+#science h3 {
+  font-size: min(6.8vw, 70px);
+  margin-top: 65vh;
+}
+#web {
+  font-family: 'Fira Code', monospace;
+  background: #232323;
+  color: white;
+}
+#web:hover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/hero-web.JPG');
+}
+#web h3 {
+  font-size: min(6vw, 64px);
+  margin-top: 30vh;
+}
